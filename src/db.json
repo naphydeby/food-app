@@ -1,0 +1,29 @@
+{
+    "recipes": [
+      {
+        "id": 12345,
+        "title": "Spaghetti Carbonara",
+        "image": "https://spoonacular.com/recipeImages/12345-312x231.jpg",
+        "summary": "A classic Italian pasta dish made with eggs, cheese, pancetta, and pepper.",
+        "ingredients": [
+          "spaghetti",
+          "egg",
+          "cheese",
+          "pancetta"
+        ]
+      },
+      {
+        "id": 67890,
+        "title": "Chicken Salad",
+        "image": "https://spoonacular.com/recipeImages/67890-312x231.jpg",
+        "summary": "A healthy salad made with chicken breast, fresh greens, and a tangy dressing.",
+        "ingredients": [
+          "chicken breast",
+          "lettuce",
+          "tomatoes",
+          "avocado"
+        ]
+      }
+    ]
+  }
+  
