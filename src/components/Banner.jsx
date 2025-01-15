@@ -22,7 +22,7 @@ const Banner = () => {
       </div>
       <div data-aos="fade-up" data-aos-delay="300">
         <p className="text-lg md:text-2xl mb-6">
-          Discover amazing content and services crafted just for you.
+          Your Favourite Meals, Just a Tip Away.
         </p>
       </div>
       <div data-aos="zoom-in" data-aos-delay="500">
