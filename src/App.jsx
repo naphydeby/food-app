@@ -8,7 +8,7 @@ import CartPage from './pages/CartPage';
 import Navbar from './components/Navbar';
 import CartProvider from './context/CartContext';
 import CategoryPage from './pages/CategoryPage';
-import CuisinePage from './pages/CuisinePage';
+// import CuisinePage from './pages/CuisinePage';
 const App = () => {
   return (
     <CartProvider>
@@ -21,7 +21,7 @@ const App = () => {
             <Route path="/meal/:idMeal" element={<MealDetailsPage />} />
             <Route path="/cart" element={<CartPage />} />
             <Route path="/category/:category" element={<CategoryPage />} />
-            <Route path="/cuisine/:cuisine" element={<SearchPage />} />
+            {/* <Route path="/cuisine/:cuisine" element={<SearchPage />} /> */}
           </Routes>
         </div>
       </Router>

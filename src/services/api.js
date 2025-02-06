@@ -15,15 +15,15 @@ export const getCategories = async () => {
 };
 
 // Fetch areas (regions)
-export const getAreas = async () => {
-  try {
-    const response = await axios.get(`${BASE_URL}list.php?a=list`);
-    return response.data.meals.map((meal) => meal.strArea);
-  } catch (error) {
-    console.error("Error fetching areas:", error);
-    return [];
-  }
-};
+// export const getAreas = async () => {
+//   try {
+//     const response = await axios.get(`${BASE_URL}list.php?a=list`);
+//     return response.data.meals.map((meal) => meal.strArea);
+//   } catch (error) {
+//     console.error("Error fetching areas:", error);
+//     return [];
+//   }
+// };
 
 // Fetch random meals
 export const getRandomMeals = async () => {

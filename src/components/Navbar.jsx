@@ -7,7 +7,7 @@ const Navbar = () => {
   const { cart } = useContext(CartContext);
 
   return (
-    <nav className="bg-blue-500 p-4">
+    <nav className="bg-[#008000] p-4">
       <div className="container mx-auto flex justify-between items-center">
         <Link to="/"><img className='w-12 h-12' src={logo} alt="" /></Link>
         <div className="flex gap-4">

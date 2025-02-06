@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import foodImg from '../assets/images/foodbanner2.jpeg'
 
 const Banner = () => {
   useEffect(() => {
@@ -13,7 +14,7 @@ const Banner = () => {
   }, []);
 
   return (
-    <div className="bg-gradient-to-r from-blue-500 to-green-500 text-white py-20 px-10 md:px-40 text-center relative">
+    <div className="bg-cover h-[80vh] text-[#008000] flex flex-col justify-center items-center" style={{backgroundImage:`url(${foodImg})`}}>
       <div data-aos="fade-down">
         <h1 className="text-3xl md:text-5xl font-bold mb-4">
           Welcome to Naphydeby's Kitchen
@@ -26,7 +27,7 @@ const Banner = () => {
         </p>
       </div>
       <div data-aos="zoom-in" data-aos-delay="500">
-        <button className="bg-white text-blue-500 hover:bg-gray-100 py-3 px-8 rounded-full font-semibold text-lg transition duration-300">
+        <button className="bg-white text-[#008000] hover:bg-gray-100 py-3 px-8 rounded-full font-semibold text-lg transition duration-300">
           Get Started
         </button>
       </div>
