@@ -27,13 +27,13 @@ const MealDetailsPage = () => {
         <div>
           
           <h3 className="text-lg font-semibold mb-4">
-            Cuisine: <Link to={`/cuisine/${meal.strArea}`} className="text-blue-500 underline">{meal.strArea}</Link>
+            Cuisine: <Link to={`/cuisine/${meal.strArea}`} className="text-[#008000] underline">{meal.strArea}</Link>
           </h3>
           <p className="mb-4">{meal.strInstructions}</p>
           <a href={meal.strYoutube} target="_blank" rel="noopener noreferrer" className="bg-red-500 text-white px-4 py-2 rounded shadow hover:bg-red-600">Watch Video</a>
           <button
             onClick={() => addToCart(meal)}
-            className="bg-green-500 text-white px-4 py-2 rounded shadow hover:bg-green-600 ml-4"
+            className="bg-[#008000] text-white px-4 py-2 rounded shadow hover:bg-[#008000] ml-4"
           >
             Add to Cart
           </button>
