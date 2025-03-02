@@ -16,7 +16,7 @@ const Banner = () => {
   return (
     <div className="bg-cover h-[80vh] text-[#008000] flex flex-col justify-center items-center" style={{backgroundImage:`url(${foodImg})`}}>
       <div data-aos="fade-down">
-        <h1 className="text-2xl md:text-5xl font-bold mb-4">
+        <h1 className="text-2xl md:text-5xl font-bold mb-4 text-center">
           Welcome to Naphydeby's Kitchen
         </h1>
         {/* to include image */}
